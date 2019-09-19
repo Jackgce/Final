@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Books">
+        <menu>
+            <item
+                android:id="@+id/cse"
+                android:icon="@drawable/ic_menu_cse"
+                android:title="@string/menu_cse" />
+            <item
+                android:id="@+id/eee"
+                android:icon="@drawable/ic_menu_eee"
+                android:title="@string/menu_eee" />
+            <item
+                android:id="@+id/ece"
+                android:icon="@drawable/ic_menu_ece"
+                android:title="@string/menu_ece" />
+            <item
+                android:id="@+id/civil"
+                android:icon="@drawable/ic_menu_civil"
+                android:title="@string/menu_civil" />
+            <item
+                android:id="@+id/mech"
+                android:icon="@drawable/ic_menu_mech"
+                android:title="@string/menu_mech" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
